@@ -25,6 +25,3 @@ urlpatterns = [
     path('', views.mainhome, name="mainhome"),
     path("contactme/", include("contactme.urls")),
 ]
-
-if settings.DEBUG:
-    urlpatterns+=static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
