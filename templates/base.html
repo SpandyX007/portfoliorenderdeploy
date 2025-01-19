@@ -10,7 +10,7 @@
     {% comment %} <meta content="Free HTML Templates" name="description"> {% endcomment %}
 
     <!-- Favicon -->
-    <link href="/static/img/favicon.ico" rel="icon">
+    <link href='{% static "img/favicon.ico" %}' rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -20,12 +20,12 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
-    <link href="/static/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="/static/lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href='{% static "lib/owlcarousel/assets/owl.carousel.min.css" %}' rel="stylesheet">
+    <link href='{% static "lib/lightbox/css/lightbox.min.css" %}' rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
     {% comment %} <link href="./css/style.css" rel="stylesheet"> {% endcomment %}
-    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="stylesheet" href='{% static "css/style.css" %}'>
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="51">
@@ -36,19 +36,19 @@
 <!-- JavaScript Libraries -->
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-<script src="/static/lib/typed/typed.min.js"></script>
-<script src="/static/lib/easing/easing.min.js"></script>
-<script src="/static/lib/waypoints/waypoints.min.js"></script>
-<script src="/static/lib/owlcarousel/owl.carousel.min.js"></script>
-<script src="/static/lib/isotope/isotope.pkgd.min.js"></script>
-<script src="/static/lib/lightbox/js/lightbox.min.js"></script>
+<script src='{% static "lib/typed/typed.min.js" %}'></script>
+<script src='{% static "lib/easing/easing.min.js" %}'></script>
+<script src='{% static "lib/waypoints/waypoints.min.js" %}'></script>
+<script src='{% static "lib/owlcarousel/owl.carousel.min.js" %}'></script>
+<script src='{% static "lib/isotope/isotope.pkgd.min.js" %}'></script>
+<script src='{% static "lib/lightbox/js/lightbox.min.js" %}'></script>
 
 <!-- Contact Javascript File -->
-{% comment %} <script src="/static/mail/jqBootstrapValidation.min.js"></script>
-<script src="/static/mail/contact.js"></script> {% endcomment %}
+{% comment %} <script src='{% static "mail/jqBootstrapValidation.min.js" %}'></script>
+<script src='{% static "mail/contact.js" %}'></script> {% endcomment %}
 
 <!-- Template Javascript -->
-<script src="/static/js/main.js"></script>
+<script src='{% static "js/main.js" %}'></script>
 </body>
 
 <!-- Footer Start -->
